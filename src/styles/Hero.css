@@ -1,0 +1,125 @@
+.hero {
+  height: 100vh;
+  background-image: url("../images/hero-background.svg");
+  background-position: top right;
+  background-size: 180vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero__logo {
+  position: absolute;
+  top: 1.5rem;
+  left: 5rem;
+}
+
+.hero__logo > img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.hero__navbar {
+  top: 3rem;
+  left: 14vw;
+  position: absolute;
+}
+
+.hero__navbar > ul {
+  margin-bottom: 1rem;
+}
+
+.hero__navbar > ul > li {
+  display: inline-block;
+  width: auto;
+  margin-right: 3rem;
+}
+
+.hero__navbar > ul > li:last-child > a {
+  color: var(--primary-color-light);
+}
+
+.hero__navbar > ul > li > a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--light-text);
+  font-weight: 500;
+}
+
+.nav__burgerBtn {
+  display: none;
+}
+
+.nav__mobile {
+  display: none;
+}
+
+.hero__text {
+  position: absolute;
+  top: 30vh;
+  left: 14vw;
+}
+
+.hero__title-top,
+.hero__title-bottom {
+  font-size: 5rem;
+  line-height: 120%;
+}
+
+.hero__slogan {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero__slogan > p {
+  font-size: 1.5rem;
+}
+
+.hero__slogan > p > span:last-child {
+  color: var(--primary-color-light);
+}
+
+.hero__buttons {
+  margin-top: 5rem;
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__buttons > a {
+  width: 9rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.hero__buttons > a:first-child {
+  color: var(--primary-color-light);
+  border: 2px solid var(--primary-color-light);
+  box-shadow: 0 7px 15px rgba(73, 130, 252, 0.15), 0 7px 7px rgba(0, 0, 0, 0);
+}
+
+.hero__buttons > a:last-child {
+  box-shadow: 0 7px 15px rgba(73, 130, 252, 0.15), 0 7px 7px rgba(0, 0, 0, 0);
+  border: none;
+  background-image: linear-gradient(to bottom right, #47b5ff, #5f48ff);
+  color: white;
+}
+
+.hero__arrow {
+  position: absolute;
+  left: 14vw;
+  bottom: 7rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.hero__arrow > a > img {
+  height: 3rem;
+  width: 3rem;
+}
