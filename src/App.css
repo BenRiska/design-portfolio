@@ -6,3 +6,21 @@
   --primary-color-light: #5575ff;
   --primary-color-dark: #57aeff;
 }
+
+hr {
+  width: 80%;
+  border-color: var(--primary-color-light);
+  margin: 0 auto;
+}
+
+footer {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+footer > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
