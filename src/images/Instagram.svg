@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg id="insta" className="mode-contact" xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsCc="http://creativecommons.org/ns#" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsSvg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" width="200mm" height="200mm" viewBox="0 0 200 200" version="1.1" inkscapeVersion="0.92.4 (f8dce91, 2019-08-02)" sodipodiDocname="insta_black.svg">
+                <defs id="defs13566">
+                  <linearGradient inkscapeCollect="always" xlinkHref="#linearGradient30348" id="linearGradient13447" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4881434,0,0,1.4881434,728.80728,-256.71865)" x1="-392.82095" y1="268.44345" x2="-379.62881" y2="268.44345"></linearGradient>
+                  <linearGradient id="linearGradient30348" inkscapeCollect="always">
+                    <stop id="stop30344" offset="0" 
+                    style={{stopColor: "#ff1300", stopOpacity: 1}}></stop>
+                    <stop id="stop30346" offset="1" 
+                    style={{stopColor: "#e43729", stopOpacity:1}}></stop>
+                  </linearGradient>
+                  <linearGradient inkscapeCollect="always" xlinkHref="#linearGradient30674" id="linearGradient13445" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4881434,0,0,1.4881434,728.80728,-256.71865)" x1="-458.04376" y1="304.89603" x2="-386.7431" y2="304.89603"></linearGradient>
+                  <linearGradient inkscapeCollect="always" id="linearGradient30674">
+                    <stop 
+                    style={{stopColor: "#fc8102", stopOpacity:1}} offset="0" id="stop30670"></stop>
+                    <stop style={{stopColor: "#fbb231", stopOpacity:1}} offset="1" id="stop30672"></stop>
+                  </linearGradient>
+                  <linearGradient inkscapeCollect="always" xlinkHref="#linearGradient30260" id="linearGradient13443" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4881434,0,0,1.4881434,728.80728,-256.71865)" x1="-491.70508" y1="304.89612" x2="-353.08139" y2="304.89612"></linearGradient>
+                  <linearGradient id="linearGradient30260" inkscapeCollect="always">
+                    <stop id="stop30256" offset="0" style={{stopColor: "#00a5ff", stopOpacity: 1}}></stop>
+                    <stop id="stop30258" offset="1" style={{stopColor: "#7300ff", stopOpacity: 1}}></stop>
+                  </linearGradient>
+                </defs>
+                <g inkscapeLabel="Layer 1" inkscapeGroupmode="layer" id="layer1" transform="translate(0,-97)">
+                  <path sodipodiNodetypes="cscccsccc" d="m 64.335945,289.81627 h 72.151515 c 62.15443,0 57.09206,-58.21726 57.09206,-58.21726 v -68.78099 c 0,0 5.06237,-58.61102 -57.48578,-58.61102 H 63.942211 c -62.1544239,0 -57.0920539,57.42973 -57.0920539,57.42973 v 69.56852 c 0,0 -5.06237,58.61102 57.4857879,58.61102 z" id="path13516" inkscapeConnectorCurvature="0"></path>
+                  <path sodipodiNodetypes="cscccsccc" d="m 64.335945,289.81627 h 72.151515 c 62.15443,0 57.09206,-58.21726 57.09206,-58.21726 v -68.78099 c 0,0 5.06237,-58.61102 -57.48578,-58.61102 H 63.942211 c -62.1544239,0 -57.0920539,57.42973 -57.0920539,57.42973 v 69.56852 c 0,0 -5.06237,58.61102 57.4857879,58.61102 z" id="path13516a" inkscapeConnectorCurvature="0"></path>
+                  <circle r="43.379902" cy="197.00903" cx="100.21487" id="circle13518"></circle>
+                  <circle r="43.379902" cy="197.00903" cx="100.21487" id="circle13518a"></circle>
+
+                  <path inkscapeConnectorCurvature="0" id="path13520" d="m 154.03367,142.76452 h 0.0104"></path>
+                </g>
+              </svg>

@@ -1,0 +1,41 @@
+.about {
+  text-align: center;
+  margin-top: 10rem;
+  background: url("../images/about_background.svg") top 0rem center;
+  background-repeat: no-repeat;
+}
+
+.about > h1 {
+  padding: 1.5rem 0;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.about__text {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.about__text > p {
+  font-size: 1.5rem;
+  line-height: 150%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about__text > a {
+  width: 9rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 7px 15px rgba(73, 130, 252, 0.15), 0 7px 7px rgba(0, 0, 0, 0);
+  border: none;
+  background-image: linear-gradient(to bottom right, #47b5ff, #5f48ff);
+  color: white;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
