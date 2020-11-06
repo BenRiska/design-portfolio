@@ -13,8 +13,8 @@ function Projects() {
                     <p className="projects__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iusto impedit accusamus veniam quibusdam similique voluptates repudiandae, laudantium illo amet!</p>
                     <p className="projects__card-text built-with">html, css, javascript, react, firebase</p>
                     <div className="projects__card-buttons">
-                        <a href="#app">Source</a>
-                        <a href="#app">Visit</a>
+                        <a className="card-btn" href="#app">Source</a>
+                        <a className="card-btn" href="#app">Visit</a>
                     </div>
                 </div>
                 <div className="projects__card">
@@ -23,8 +23,8 @@ function Projects() {
                     <p className="projects__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iusto impedit accusamus veniam quibusdam similique voluptates repudiandae, laudantium illo amet!</p>
                     <p className="projects__card-text built-with">html, css, javascript, react, firebase</p>
                     <div className="projects__card-buttons">
-                        <a href="#app">Source</a>
-                        <a href="#app">Visit</a>
+                        <a className="card-btn" href="#app">Source</a>
+                        <a className="card-btn" href="#app">Visit</a>
                     </div>
                 </div>
                 <div className="projects__card">
@@ -33,8 +33,8 @@ function Projects() {
                     <p className="projects__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iusto impedit accusamus veniam quibusdam similique voluptates repudiandae, laudantium illo amet!</p>
                     <p className="projects__card-text built-with">html, css, javascript, react, firebase</p>
                     <div className="projects__card-buttons">
-                        <a href="#app">Source</a>
-                        <a href="#app">Visit</a>
+                        <a className="card-btn" href="#app">Source</a>
+                        <a className="card-btn" href="#app">Visit</a>
                     </div>
                 </div>
                 <div className="projects__card">
@@ -43,15 +43,15 @@ function Projects() {
                     <p className="projects__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iusto impedit accusamus veniam quibusdam similique voluptates repudiandae, laudantium illo amet!</p>
                     <p className="projects__card-text built-with">html, css, javascript, react, firebase</p>
                     <div className="projects__card-buttons">
-                        <a href="#app">Source</a>
-                        <a href="#app">Visit</a>
+                        <a className="card-btn" href="#app">Source</a>
+                        <a className="card-btn" href="#app">Visit</a>
                     </div>
                 </div>
             </div>
             <div className="projects__wip-card">
                 <img src={gears} alt="gears icon"/>
                 <p className="wip-title">Next project is WIP</p>
-                <p>To be listed soon.</p>
+                <p className="wip-text">To be listed soon.</p>
             </div>
         </div>
     )

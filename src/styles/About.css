@@ -39,3 +39,27 @@
   margin: 0 auto;
   margin-top: 3rem;
 }
+
+@media only screen and (max-width: 750px) {
+  .about {
+    margin-top: 5rem;
+  }
+
+  .about > h1 {
+    font-size: calc(1rem + 6vw);
+  }
+
+  .about__text {
+    width: 70%;
+  }
+
+  .about__text > p {
+    font-size: calc(0.5rem + 2.2vw);
+  }
+
+  .about__text > a {
+    font-size: calc(0.5rem + 2vw);
+    width: 30vw;
+    height: 2.4rem;
+  }
+}

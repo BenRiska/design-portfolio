@@ -22,7 +22,7 @@ function App() {
       {/* Footer */}
       <hr/>
       <footer>
-        <p>Made with <FavoriteIcon fontSize="small"/>  by Benjamin Taylor</p>
+        <p>Made with <FavoriteIcon class="burger__icon" fontSize="small"/> by Benjamin Taylor</p>
         <p>Copyright © 2020. All rights reserved.</p>
       </footer>
     </div>

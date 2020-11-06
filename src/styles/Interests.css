@@ -40,3 +40,29 @@
   font-size: 1.4rem;
   opacity: 0.7;
 }
+
+@media only screen and (max-width: 1250px) {
+  .interests__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .interests__container {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+
+  .interests > h1 {
+    font-size: calc(1rem + 6vw);
+  }
+
+  .interest__card > h2 {
+    font-size: calc(1rem + 2vw);
+  }
+
+  .interest__card > p {
+    font-size: calc(0.6rem + 2vw);
+  }
+}

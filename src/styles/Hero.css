@@ -123,3 +123,108 @@
   height: 3rem;
   width: 3rem;
 }
+
+@media only screen and (max-width: 1250px) and (orientation: landscape) {
+  .hero {
+    height: 800px;
+  }
+
+  .hero__arrow {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .hero {
+    background-position: top 0 right 45%;
+  }
+
+  .hero__title-top,
+  .hero__title-bottom {
+    font-size: calc(1rem + 5vw);
+  }
+
+  .hero__slogan > p {
+    font-size: calc(0.5rem + 2vw);
+  }
+
+  .hero__text {
+    left: 10vw;
+  }
+
+  .hero__logo {
+    top: 1rem;
+    left: 1.7vw;
+  }
+
+  .hero__logo > img {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .hero__navbar {
+    left: 10vw;
+    top: 2.5rem;
+  }
+
+  .hero__navbar > ul > li {
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .hero__buttons {
+    width: 46vw;
+  }
+
+  .hero__logo {
+    top: 0.5rem;
+    z-index: 5;
+  }
+
+  .hero__navbar {
+    width: 100%;
+    top: 0;
+    height: 4rem;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15), 0 7px 7px rgba(0, 0, 0, 0);
+  }
+
+  .nav__burgerBtn {
+    display: initial;
+    position: absolute;
+    right: 3vw;
+    top: 1rem;
+    z-index: 5;
+  }
+
+  .burger__icon {
+    color: #5575ff !important;
+  }
+
+  .hero__logo > img {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .hero__buttons > a {
+    width: 21vw;
+    font-size: 3vw;
+  }
+
+  .hero__arrow {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .hero__arrow > a > img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .hero__navbar > ul {
+    display: none;
+  }
+}

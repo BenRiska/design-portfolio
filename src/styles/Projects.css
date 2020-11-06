@@ -50,6 +50,7 @@
 
 .built-with {
   color: var(--primary-color-light);
+  opacity: 1;
 }
 
 .projects__card-buttons {
@@ -108,4 +109,57 @@
   opacity: 0.7;
   font-size: 1.4rem;
   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+  }
+
+  .projects__wip-card {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .projects {
+    margin-top: 2rem;
+  }
+
+  .projects__container {
+    width: 90%;
+  }
+  .projects > h1 {
+    font-size: calc(1rem + 6vw);
+  }
+
+  .projects__card-title {
+    font-size: calc(1rem + 2vw);
+    padding-top: 1rem;
+  }
+
+  .projects__card-text {
+    font-size: calc(0.5rem + 2vw);
+    margin-bottom: 0;
+  }
+
+  .projects__card-buttons {
+    margin-top: 0;
+  }
+
+  .card-btn {
+    font-size: calc(0.5rem + 2vw) !important;
+    width: 40% !important;
+  }
+
+  .wip-title {
+    font-size: calc(1rem + 2vw);
+  }
+
+  .projects__wip-card > p:last-child {
+    font-size: calc(0.7rem + 2vw);
+    margin-top: 1rem;
+  }
 }

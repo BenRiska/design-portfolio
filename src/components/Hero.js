@@ -2,6 +2,7 @@ import React from 'react'
 import "../styles/Hero.css"
 import logo from "../images/white-icon.svg"
 import arrow from "../images/arrow.svg"
+import MenuIcon from '@material-ui/icons/Menu';
 
 
 function Hero() {
@@ -18,7 +19,7 @@ function Hero() {
                     <li> <a href="#app">contact</a></li>
                     <li> <a href="#app">resume</a></li>
                 </ul>
-                <div className="nav__burgerBtn"></div>
+                <div className="nav__burgerBtn"><MenuIcon className="burger__icon" fontSize="large"/></div>
                 <div className="nav__mobile"></div>
             </nav>
             <div className="hero__text">
