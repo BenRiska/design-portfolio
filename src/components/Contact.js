@@ -7,7 +7,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function Contact() {
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <h1>Contact</h1>
             <p>Lets talk! you can contact me at</p>
             <p className="contact__email">ben10taylor10@hotmail.com</p>

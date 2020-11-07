@@ -6,7 +6,7 @@ import MusicIcon from "../images/pub_sp_icon.svg"
 
 function Interests() {
     return (
-        <div className="interests">
+        <div id="interests" className="interests">
             <h1>Interests</h1>
             <div className="interests__container">
                 <div className="interest__card">

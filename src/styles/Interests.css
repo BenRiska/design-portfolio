@@ -22,6 +22,11 @@
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0), 0 15px 20px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   padding: 30px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.interest__card:hover {
+  transform: scale(1.04) translateY(-2px);
 }
 
 .interest__card > img {
@@ -50,7 +55,7 @@
 @media only screen and (max-width: 750px) {
   .interests__container {
     grid-template-columns: 1fr;
-    max-width: 500px;
+    max-width: 80%;
     margin-top: 2rem;
   }
 

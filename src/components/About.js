@@ -1,9 +1,10 @@
 import React from 'react'
 import "../styles/About.css"
+import cv from "../images/bentaylor-cv.pdf"
 
 function About() {
     return (
-        <div className="about">
+        <div id="about" className="about">
             <h1>About</h1>
             <div className="about__text">
                 <p>
@@ -15,7 +16,7 @@ function About() {
                 <p>
                     I think of myself as three different personas - creative coder, critical thinker and challenge seeker - as these are a great description of who I am, what I love doing and my path so far. I am more than excited to have you joining me on my journey right now!
                 </p>
-                <a href="#app">Resume</a>
+                <a href={cv} download>Resume</a>
             </div>
         </div>
     )

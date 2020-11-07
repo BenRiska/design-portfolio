@@ -24,3 +24,51 @@ footer > p {
   justify-content: center;
   margin: 1rem;
 }
+
+.footer__icon {
+  height: 15px !important;
+  color: red !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.bottom-arrow {
+  position: fixed;
+  right: 1vw;
+  bottom: 2vw;
+}
+
+.bottom-arrow > img {
+  height: 3rem;
+  width: 3rem;
+  transform: rotate(180deg);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bottom-arrow > img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .bottom-arrow > img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    font-size: calc(0.5rem + 2vw);
+  }
+
+  .bottom-arrow > img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

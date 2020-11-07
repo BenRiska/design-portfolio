@@ -26,6 +26,11 @@
   height: 100%;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0), 0 15px 20px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.projects__card:hover {
+  transform: scale(1.04) translateY(-2px);
 }
 
 .projects__card > img {
@@ -71,7 +76,13 @@
   border-radius: 6px;
   text-decoration: none;
   margin-top: 2rem;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
+.projects__card-buttons > a:hover {
+  transform: scale(1.04);
+}
+
 .projects__card-buttons > a:first-child {
   color: var(--primary-color-light);
   border: 2px solid var(--primary-color-light);
@@ -161,5 +172,11 @@
   .projects__wip-card > p:last-child {
     font-size: calc(0.7rem + 2vw);
     margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projects__wip-card {
+    max-width: 80%;
   }
 }
