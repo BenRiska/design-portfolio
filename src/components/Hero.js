@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "../styles/Hero.css"
 import logo from "../images/white-icon.svg"
 import arrow from "../images/arrow.svg"
@@ -7,7 +7,34 @@ import {Link} from "react-scroll"
 import ClearIcon from '@material-ui/icons/Clear';
 
 
+
 function Hero() {
+
+    const [darkMode, setDarkMode] = useState(false)
+
+    const handleBgChange = () => {
+        if(!darkMode){
+            document.documentElement.style
+                .setProperty('--bg', 'black');
+            document.documentElement.style
+                .setProperty('--primary-color-light', '#57aeff');
+            document.documentElement.style
+                .setProperty('--text', 'white');
+            document.documentElement.style
+                .setProperty('--card-bg', 'rgb(30, 30, 30)');
+        } else{
+            document.documentElement.style
+                .setProperty('--bg', 'white');
+            document.documentElement.style
+                .setProperty('--primary-color-light', '#5575ff');
+            document.documentElement.style
+                .setProperty('--text', 'black');
+            document.documentElement.style
+                .setProperty('--card-bg', 'white');
+        }
+        
+
+    }
 
     const openNav = () => {
         const nav = document.querySelector(".nav__mobile");
@@ -52,6 +79,16 @@ function Hero() {
                     </ul>
                 </div>
             </nav>
+            <div style={{background: darkMode ? "black" : "linear-gradient(to bottom right, #5855ff, #47b5ff)"}} className="color-mode-container">
+                <input onChange={e => {
+                    handleBgChange()
+                    setDarkMode(!darkMode)
+                }} type="checkbox"/>
+                <div className="slider__icon1"></div>
+                <div className="slider__icon2"></div>
+                <div className="slider__icon3"></div>
+                <div className="slider__icon4"></div>
+            </div>
             <div className="hero__text">
                 <div className="hero__title">
                     <div className="hero__title-top">Hi, I'm</div>

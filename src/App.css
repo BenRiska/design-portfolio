@@ -1,10 +1,14 @@
 :root {
-  --light-text: black;
-  --dark-text: white;
-  --light-bg: white;
-  --dark-bg: black;
+  --text: black;
   --primary-color-light: #5575ff;
-  --primary-color-dark: #57aeff;
+  --bg: white;
+  --card-bg: white;
+}
+
+.app {
+  background: var(--bg);
+  transition: 0.6s;
+  color: var(--text);
 }
 
 hr {
@@ -22,7 +26,7 @@ footer > p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem;
+  padding-bottom: 1rem;
 }
 
 .footer__icon {

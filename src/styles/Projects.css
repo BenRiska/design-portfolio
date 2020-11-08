@@ -7,6 +7,7 @@
 .projects > h1 {
   font-size: 5rem;
   font-weight: 400;
+  color: var(--text);
 }
 
 .projects__container {
@@ -19,6 +20,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
+  color: var(--text);
 }
 
 .projects__card {
@@ -27,6 +29,7 @@
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0), 0 15px 20px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background: var(--card-bg);
 }
 
 .projects__card:hover {
@@ -104,6 +107,8 @@
   height: 550px;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: var(--text);
+  background: var(--card-bg);
 }
 
 .projects__wip-card > img {

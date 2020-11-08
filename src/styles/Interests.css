@@ -1,6 +1,7 @@
 .interests {
   margin-top: 6rem;
   text-align: center;
+  color: var(--text);
 }
 
 .interests > h1 {
@@ -23,6 +24,7 @@
   border-radius: 15px;
   padding: 30px;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background: var(--card-bg);
 }
 
 .interest__card:hover {

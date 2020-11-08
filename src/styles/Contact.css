@@ -1,6 +1,7 @@
 .contact {
   margin-top: 7rem;
   text-align: center;
+  color: var(--text);
 }
 
 .contact > h1 {

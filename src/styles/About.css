@@ -3,6 +3,7 @@
   margin-top: 10rem;
   background: url("../images/about_background.svg") top 0rem center;
   background-repeat: no-repeat;
+  color: var(--text);
 }
 
 .about > h1 {
