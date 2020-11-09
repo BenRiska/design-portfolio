@@ -30,6 +30,7 @@
   border-radius: 15px;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   background: var(--card-bg);
+  transition: 0.4s;
 }
 
 .projects__card:hover {
@@ -109,6 +110,7 @@
   margin-bottom: 2rem;
   color: var(--text);
   background: var(--card-bg);
+  transition: 0.4s;
 }
 
 .projects__wip-card > img {

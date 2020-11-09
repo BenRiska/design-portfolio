@@ -6,6 +6,14 @@
   color: var(--text);
 }
 
+.about-text-highlight {
+  color: var(--primary-color-light);
+}
+
+.about__text > p > a {
+  color: var(--text);
+}
+
 .about > h1 {
   padding: 1.5rem 0;
   font-size: 5rem;

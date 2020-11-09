@@ -3,6 +3,7 @@ import "../styles/Interests.css"
 import SDIcon from "../images/web_dev_icon.svg"
 import UiUxIcon from "../images/ui_ux_icon.svg"
 import MusicIcon from "../images/pub_sp_icon.svg"
+import sportsIcon from "../images/sports-icon.svg"
 
 function Interests() {
     return (
@@ -21,11 +22,11 @@ function Interests() {
                 </div>
                 <div className="interest__card">
                     <img src={MusicIcon} alt="icon"/>
-                    <h2>Music Production</h2>
+                    <h2>Music</h2>
                     <p>Music production lets me capture and immortalise important feelings throughout my life.</p>
                 </div>
                 <div className="interest__card">
-                    <img src={UiUxIcon} alt="icon"/>
+                    <img src={sportsIcon} alt="icon"/>
                     <h2>Fitness</h2>
                     <p>Exercise is important to me. I enjoy going to the gym, playing sports and looking after my physical and mental health.</p>
                 </div>

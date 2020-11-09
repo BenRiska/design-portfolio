@@ -4,7 +4,6 @@ import Contact from './components/Contact';
 import Hero from "./components/Hero"
 import Interests from './components/Interests';
 import Projects from './components/Projects';
-import FavoriteIcon from '@material-ui/icons/Favorite';
 import arrow from "./images/arrow.svg"
 import {Link} from "react-scroll"
 import {useState} from "react"
@@ -41,7 +40,7 @@ function App() {
       {/* Footer */}
       <hr/>
       <footer>
-        <p>Made with <FavoriteIcon className="footer__icon" fontSize="small"/> by Benjamin Taylor</p>
+        
         <p>Copyright © 2020. All rights reserved.</p>
       </footer>
       <Link className="cursor bottom-arrow" to="app" smooth duration={1000}><img className="bottom-arrow-icon" src={arrow} alt="arrow"/></Link> 

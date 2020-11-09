@@ -2,15 +2,15 @@ import React, {useState} from 'react'
 import "../styles/Hero.css"
 import logo from "../images/white-icon.svg"
 import arrow from "../images/arrow.svg"
-import MenuIcon from '@material-ui/icons/Menu';
 import {Link} from "react-scroll"
-import ClearIcon from '@material-ui/icons/Clear';
+import logoDark from "../images/dark-logo.svg"
 
 
 
 function Hero() {
 
     const [darkMode, setDarkMode] = useState(false)
+    const [navOpen, setNavOpen] = useState(false)
 
     const handleBgChange = () => {
         if(!darkMode){
@@ -38,26 +38,40 @@ function Hero() {
 
     const openNav = () => {
         const nav = document.querySelector(".nav__mobile");
+        const line1 = document.querySelector(".line-1");
+        const line2 = document.querySelector(".line-2");
+        const line3 = document.querySelector(".line-3");
         const links = document.querySelectorAll(".nav__mobile > ul > li")
         nav.style.animation = "0.3s ease-in-out 0s 1 normal forwards running dropdown-container-appear"
+        line1.style.animation = "0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s 1 normal forwards running hamburger-line-1"
+        line2.style.animation = "0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s 1 normal forwards running hamburger-line-2"
+        line3.style.animation = "0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s 1 normal forwards running hamburger-line-3"
         links.forEach(link => {
             link.style.animation = `dropdown-link-appear ${link.dataset.delay} cubic-bezier(0.25, 0.8, 0.25, 1) 0.15s 1 normal forwards running`
         })
+        setNavOpen(true)
     }
 
     const closeNav = () => {
         const nav = document.querySelector(".nav__mobile");
+        const line1 = document.querySelector(".line-1");
+        const line2 = document.querySelector(".line-2");
+        const line3 = document.querySelector(".line-3");
         const links = document.querySelectorAll(".nav__mobile > ul > li");
         nav.style.animation = "1s cubic-bezier(0.25, 0.8, 0.25, 1) 0s 1 normal forwards running dropdown-container-disappear"
+        line1.style.animation = "0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s 1 normal forwards running hamburger-line-1-reverse"
+        line2.style.animation = "0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s 1 normal forwards running humberger-line-2-reverse"
+        line3.style.animation = "0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s 1 normal forwards running hamburger-line-3-reverse"
         links.forEach(link => {
             link.style.animation = "initial"
         })
+        setNavOpen(false)
     }
 
     return (
         <div className="hero">
             <div className="hero__logo">
-                <img src={logo} alt="logo"/>
+                <img src={darkMode ? logoDark : logo} alt="logo"/>
             </div>
             <nav className="hero__navbar">
                 <ul>
@@ -67,9 +81,12 @@ function Hero() {
                     <li> <Link smooth duration={2000} onClick={closeNav} to="contact">contact</Link></li>
                     <li> <Link smooth duration={2000} onClick={closeNav} to="about">resume</Link></li>
                 </ul>
-                <div className="nav__burgerBtn"><MenuIcon onClick={openNav}className="burger__icon" fontSize="large"/></div>
+                <div onClick={navOpen ? closeNav : openNav} className="nav__burgerBtn">
+                    <span className="line-1"></span>
+                    <span className="line-2"></span>
+                    <span className="line-3"></span>
+                </div>
                 <div className="nav__mobile">
-                    <ClearIcon onClick={closeNav} className="nav__exit"/>
                     <ul>
                     <li data-delay=".7s"> <Link smooth duration={2000} onClick={closeNav} to="projects">projects</Link></li>
                     <li data-delay="1s"> <Link smooth duration={2000} onClick={closeNav} to="about">about</Link></li>

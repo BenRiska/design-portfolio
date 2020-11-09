@@ -13,9 +13,9 @@ function Contact() {
             <p className="contact__email">ben10taylor10@hotmail.com</p>
             <p>You can also find me on</p>
             <div className="contact__socials">
-                <a href="#app"><InstagramIcon className="contact__icon"/></a>
-                <a href="#app"><GitHubIcon className="contact__icon"/></a>
-                <a href="#app"><LinkedInIcon className="contact__icon"/></a>
+                <a href="https://www.instagram.com/benhernandezlt/?hl=en"><InstagramIcon className="contact__icon"/></a>
+                <a href="https://github.com/BenRiska"><GitHubIcon className="contact__icon"/></a>
+                <a href="https://www.linkedin.com/in/ben-taylor-tech/"><LinkedInIcon className="contact__icon"/></a>
             </div>
         </div>
     )
