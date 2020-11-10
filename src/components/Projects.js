@@ -15,7 +15,7 @@ function Projects() {
                 <div className="projects__card">
                     <img src={artlogicPhoto} alt="project"/>
                     <p className="projects__card-title">Artlogic</p>
-                    <p className="projects__card-text">A website for an art oriented web agency, offering modern database, sales and marketing solutions that seamlessly integrate, providing you with all you need to run your art business.  </p>
+                    <p className="projects__card-text">Artlogic is an art oriented web agency, offering modern database, sales and marketing solutions that seamlessly integrate, providing you with all you need to run your art business.  </p>
                     <p className="projects__card-text built-with">html, css, javascript, react, firebase</p>
                     <div className="projects__card-buttons">
                         <a className="card-btn" target="_blank" rel="noreferrer" href="https://github.com/BenRiska/artlogic">Source</a>

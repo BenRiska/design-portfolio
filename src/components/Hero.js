@@ -37,6 +37,7 @@ function Hero() {
     }
 
     const openNav = () => {
+        if (window.screen.width < 751){
         const nav = document.querySelector(".nav__mobile");
         const line1 = document.querySelector(".line-1");
         const line2 = document.querySelector(".line-2");
@@ -49,10 +50,11 @@ function Hero() {
         links.forEach(link => {
             link.style.animation = `dropdown-link-appear ${link.dataset.delay} cubic-bezier(0.25, 0.8, 0.25, 1) 0.15s 1 normal forwards running`
         })
-        setNavOpen(true)
+        setNavOpen(true)}
     }
 
     const closeNav = () => {
+        if(window.screen.width < 751){
         const nav = document.querySelector(".nav__mobile");
         const line1 = document.querySelector(".line-1");
         const line2 = document.querySelector(".line-2");
@@ -65,7 +67,7 @@ function Hero() {
         links.forEach(link => {
             link.style.animation = "initial"
         })
-        setNavOpen(false)
+        setNavOpen(false)}
     }
 
     return (
