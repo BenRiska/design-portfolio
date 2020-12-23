@@ -3,7 +3,7 @@ import "../styles/Projects.css"
 import gears from "../images/gears.svg"
 import pwPhoto from "../images/portfolio.png"
 import artlogicPhoto from "../images/artlogic.png"
-import facebookPhoto from "../images/facebook.png"
+import facebookPhoto from "../images/blog.png"
 import airPhoto from "../images/air.png"
 
 function Projects() {
@@ -24,12 +24,12 @@ function Projects() {
                 </div>
                 <div className="projects__card">
                     <img src={facebookPhoto} alt="project"/>
-                    <p className="projects__card-title">Facebook</p>
-                    <p className="projects__card-text">An attempt at re-creating facebooks modern web UI, utilising modern front-end standards such as CSS grid, react hooks and context API.</p>
-                    <p className="projects__card-text built-with">material-ui, css, javascript, react, google-api</p>
+                    <p className="projects__card-title">Personal Blog</p>
+                    <p className="projects__card-text">A blog holding articles about software development, productivity and my general life.</p>
+                    <p className="projects__card-text built-with">gsap, css, javascript, react, three.js, figma</p>
                     <div className="projects__card-buttons">
-                        <a className="card-btn" target="_blank" rel="noreferrer" href="https://github.com/BenRiska/facebook-clone" >Source</a>
-                        <a className="card-btn" target="_blank" rel="noreferrer" href="https://fb-clone-138e6.web.app/">Visit</a>
+                        <a className="card-btn" target="_blank" rel="noreferrer" href="https://github.com/BenRiska/blog" >Source</a>
+                        <a className="card-btn" target="_blank" rel="noreferrer" href="https://blog-6a15f.web.app/">Visit</a>
                     </div>
                 </div>
                 <div className="projects__card">

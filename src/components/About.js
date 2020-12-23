@@ -17,6 +17,7 @@ function About() {
                     I think of myself as three different personas - <span className="about-text-highlight">creative</span> coder, <span className="about-text-highlight">critical</span> thinker and challenge seeker - as these are a great description of who I am, what I love doing and my path so far. I am more than excited to have you joining me on my journey right now!
                 </p>
                 <a href={cv} download>Resume</a>
+                
             </div>
         </div>
     )
