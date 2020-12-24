@@ -5,6 +5,7 @@ import pwPhoto from "../images/portfolio.png"
 import artlogicPhoto from "../images/artlogic.png"
 import facebookPhoto from "../images/blog.png"
 import airPhoto from "../images/air.png"
+import blueReceiptPhoto from "../images/blue-receipt.png"
 
 function Projects() {
 
@@ -43,13 +44,13 @@ function Projects() {
                     </div>
                 </div>
                 <div className="projects__card">
-                    <img src={pwPhoto} alt="project"/>
-                    <p className="projects__card-title">Personal Website</p>
-                    <p className="projects__card-text">The website you are looking at now. I wanted a platform to share my journey and decided that this is one of the best ways I can achieve that.</p>
-                    <p className="projects__card-text built-with">inkscape, css, javascript, react, figma</p>
+                    <img src={blueReceiptPhoto} alt="project"/>
+                    <p className="projects__card-title">BlueReceipt</p>
+                    <p className="projects__card-text">BlueReceipt is text SMS marketing and 1:1 helpdesk for shopify sellers. Increase your revenue by $1000's with BlueReceipt Texts. Send Broadcasts, Create Automations, Text 1-On-1.</p>
+                    <p className="projects__card-text built-with">html, css, typescript, react, figma</p>
                     <div className="projects__card-buttons">
-                        <a className="card-btn" target="_blank" rel="noreferrer" href="https://github.com/BenRiska/design-portfolio">Source</a>
-                        <a className="card-btn" target="_blank" rel="noreferrer" href="https://portfolio-11585.web.app/">Visit</a>
+                        <a className="card-btn" target="_blank" rel="noreferrer" href="https://github.com/BenRiska/blue-receipt">Source</a>
+                        <a className="card-btn" target="_blank" rel="noreferrer" href="https://bluereceipt-92603.web.app/">Visit</a>
                     </div>
                 </div>
             </div>
