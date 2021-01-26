@@ -1,4 +1,4 @@
-# Frontend UI for my design portfolio 🎨
+# Static web app - My design portfolio 🎨
 
 <h5 style="display: flex; justify-content: space-between; margin: 0; padding: 0;">
 <p>Languages: </p>
